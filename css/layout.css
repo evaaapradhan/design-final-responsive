@@ -1,0 +1,75 @@
+.logo-wrapper{
+    float: left;
+    margin-top: -36px;
+    margin-left: -10px;
+}
+.vertical-line, .header-horizontal-line1{
+    float: left;
+}
+.search-container{
+    float:right;
+    margin-right:-10px;
+    margin-top:-30px;
+}
+.icon1, .icon2, .icon3, .icon4, .icon5 {
+    position: relative;
+    display: inline-block;
+   
+}
+.right-nav-bar{
+    float:right;
+
+}
+.icon1 .img-top1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.icon1:hover .img-top1 {
+    display: inline;
+}
+.icon2 .img-top2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.icon2:hover .img-top2 {
+    display: inline;
+}
+.icon3 .img-top3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.icon3:hover .img-top3 {
+    display: inline;
+}
+.icon4 .img-top4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.icon4:hover .img-top4 {
+    display: inline;
+}
+.icon5 .img-top5 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.icon5:hover .img-top5 {
+    display: inline;
+}
+.body-container{
+    margin-top: -50px;
+}
