@@ -352,7 +352,7 @@ background-color: #999999;
   }
 }
 
-@media screen and  (max-width: 880px) and (min-width: 380px){
+@media screen and  (max-width: 880px) and (min-width: 580px){
   .main-wrapper{
     width: fit-content;
   }
@@ -396,5 +396,23 @@ background-color: #999999;
   }
 } 
 
-
+@media screen and  (max-width: 580px) and (min-width: 380px){
+  .project-box{
+   display: none;
+  }
+  .footer-bottom-wrapper{
+    padding:20%;
+  }
+ 
+  .footer-left-title{
+    align-content: center;
+    margin-top: 250px;
+  }
+  .contact{
+    float:left;
+    color:#cc6666;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
 
