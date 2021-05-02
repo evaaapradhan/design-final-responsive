@@ -1,15 +1,22 @@
+body{
+    overflow-x: hidden;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .logo-wrapper{
     float: left;
     margin-top: -36px;
     margin-left: -10px;
 }
-.vertical-line, .header-horizontal-line1{
+.vertical-line{
     float: left;
 }
 .search-container{
     float:right;
     margin-right:-10px;
     margin-top:-30px;
+}
+.lower-header{
+    margin-top: -55px;;
 }
 .icon1, .icon2, .icon3, .icon4, .icon5 {
     position: relative;
@@ -94,4 +101,76 @@
 }
 .project-box-image{
  margin-top:-250px;
+}
+ 
+.footer-right-container{
+    float: right;
+}
+
+.footer-mid{
+    margin-left: -100px;
+    margin-top: -360px;
+    margin-right: 57px;
+    font-size: 15px;
+
+}
+
+.footer-right{
+    float: right;
+}
+.footer-left-content{
+    margin-left: 115px;
+  }
+  
+  .col1-row1{
+    margin-bottom: 30px;
+  }
+  
+  .footer-right input, textarea{
+    width: 350.124px;
+    height: 15.128px;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    
+  }
+  
+  textarea{
+    min-height: 110px;
+    resize: none;
+  }
+  
+  .footer-right button{
+    border-radius: 5px;
+  }
+  
+  
+ 
+
+
+
+.bottom-left{
+    float: left;
+    color:white;
+    margin-left: 80px;
+    font-size: 15px;
+
+}
+
+.bottom-right{
+    float: right;
+    color:white;
+    margin-right:90px;
+    font-size: 15px;
+}
+.blog1{
+    margin-bottom:20px;
+}
+.contact{
+   margin-top: 30px;
+}
+.VP, .name{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
